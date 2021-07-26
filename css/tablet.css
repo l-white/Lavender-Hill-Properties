@@ -1,0 +1,144 @@
+@media only screen and (min-width: 600px) {
+/*-----BODY -----*/
+	body {}
+
+
+
+/*-----CONTAINER -----*/
+	#container {}
+
+
+
+/*-----HEADER -----*/
+
+
+
+
+
+/*-----NAVigation -----*/
+	
+	#navbarwidth {
+	width: 100%;
+	}
+	
+	nav {
+		background-color: #87CEFA;
+		}
+		
+	nav li {
+		display: inline-block;
+		padding-left: 2.5em;
+		
+	}
+	nav li a {
+		
+	}
+
+
+
+/*-----CONTENT -----*/
+
+.homepage {
+	width: 65%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50px;
+	padding: .5em 0;
+	}
+
+#about-content {
+	
+	}
+	
+#about-paragraph {
+	width: 45%;
+	float: left;
+	margin-left: 2em;
+	
+	}
+
+.about {
+	width: 35%;
+	float: right;
+	margin-top: 2.5em;
+	margin-right: 2em;
+	border-radius: 50px;
+	}
+
+.murray_property {
+	width: 40%;
+	float: left;
+	margin-left: 2em;
+	border-radius: 20px;
+	margin-top: .5em;	
+
+	}
+
+.murray_para {
+	width: 40%;
+	float: right;
+	margin-right: 2.5em;
+	margin-top: .5em;	
+}
+
+.murray_para2 {
+	margin-top: 0;
+}
+
+
+.riverwest {
+	width: 40%;
+	float: right;
+	margin-right: 2em;
+	margin-left: 3.5em;
+	border-radius: 20px;
+	margin-top: 10em;	
+
+	}
+
+.riverwest_para {
+	width: 40%;
+	float: right;
+	margin-top: 9em;
+}
+
+.delaware_property {
+	width: 40%;
+	float: left;
+	margin-left: 2em;
+	border-radius: 20px;
+	margin-top: 10em;	
+	}
+
+.delaware_para {
+	width: 40%;
+	float: right;
+	margin-right: 2.5em;
+	margin-top: 10em;	
+}
+
+.wentworth_property {
+	width: 40%;
+	float: right;
+	margin-right: 2em;
+	margin-left: 3.5em;
+	border-radius: 20px;
+	margin-top: 10em;	
+
+	}
+
+.wentworth_para {
+	width: 40%;
+	float: right;
+	margin-top: 9em;
+}
+
+
+
+
+
+
+/*----- FOOTER -----*/
+
+	
+}

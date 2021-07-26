@@ -22,16 +22,13 @@
 <!-- enhance-desktop -->
 <link href="css/desktop.css" rel="stylesheet">
 <!-- font -->
-<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
-
-
-
+<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet" type="text/css">
 
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
-     
+
 </head>
 <body>
 <div id="wrapper">
@@ -56,23 +53,26 @@
     	<div class="keepOpen"></div>
     </nav>
     </div>  <!-- end navbarwidth division -->
-    
-    <!-- page content here -->
-    <div id="content">
-    <img src="images/murray_ave.jpg" class="homepage">
-    </div><!-- end content -->
-    
-    
-    <footer>
+		<p class="form_para">To learn more about our properties or inquire about vacancies, please submit your email address and questions below:</p>
+		<form class="form">
+  		<h3 class="form_intro">Email Lavender Hill Properties:</h3>
+  		<ul class="form-style">
+  			<li><label for="user-name">Name:</label></li>
+  			<li><input type="text" id="user-name" placeholder="First and Last Name"></li>
+  			<li><label for="user-email">Email:</label></li>
+  			<li><input type="text" id="user-email" placeholder="Your Email Address"></li>
+  			<li><label for="message">Message:</label></li>
+  			<li><textarea id="message" rows="5" cols="15"></textarea></li>
+  			<li><button type="submit" value="Submit"><a href="mailto:law7676@outlook.com?Subject=Vacancies" target="_top">Submit</a></button></li>
+			<!-- <input type="submit" value="Submit" /> -->
+  		</ul>  		
+  		</form>
+        <footer>
         <p id="year"></p>
     </footer>
     
-
-    
-    </div> <!-- end container -->
-    </div> <!-- end wrapper -->
     
 <!---- JAVASCRIPT FILES ---->
 <script src="js/script.js"></script>
-</body>
+    </body>
 </html>
